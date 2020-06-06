@@ -1,27 +1,75 @@
 ---
-title: The Intelligent Donor
-tags: ['Firebase','JavaScript','Bootstrap']
+title:   Projet de fin du semestre 3
+tags: ['JEE','JSP','MySQL']
 date: 2018-12-01
 ---
 
-### Aim of the Project
-- People in need of blood and those organizing blood camps will be able to find users that are most likely to donate. 
-- The system will find these users using ML technologies and then send them notification making them aware about possible chance of donating blood. 
-- It will also provide the organizations that partner with the App to share information and allow these organizations to maintain contact with their regular donors. 
+## Sujet
 
-### Workflow
+Conception et réalisation d’une application e-commerce web
 
-- Donor
-    - User registers on App via one of the multiple ways to sign in. 
-    - User fills in his personal information which include various details like blood group, medical history, location and donation history. 
-    - The Machine Learning algorithm in the back then analyzes the information and assigns various parameters on the likeliness of that user to donate, to his/her data. 
+## Description fonctionnelle et technique
+###	Arborescence du site :
 
-- Requester
-    - When a person/camp organizer needs donors, they will put out an alert via the app, wherein they will provide information such as location of camp/person, duration within which the request should be fulfilled, and the type of blood needed (if required). 
-    - A script will read through this data of users and then send targeted notifications to those who are most likely to donate for that alert. 
-    - These users will then get a notification on their devices about the alert, which in turn will allow them to accept attending the alert or mark as unable to attend. 
+Le site se  décompose en  6  pages  principale,  toutes  accessibles  depuis  le header  du  site, lui-même présent à  l'identique sur l'ensemble des pages du site. Ces pages principales sont :
+-	Home 
+-	Nos produits
+-	Nos locaux
+-	Nos fournisseurs 
+-	Qui sommes-nous ? 
+-	Espace Client 
 
-- Extras
-    - Users can earn a form of virtual currency for performing various actions for the app, such as sharing an alert on social media, getting users registered to the app via a referral link, etc. 
-    - This virtual currency will allow the app to have high user retention by providing a way for the app to engage users. 
-    - The app will also be partnered with various charities/organizations fighting for cause related to blood and provide them a direct way to donate to these charities/organizations. 
+
+
+###	Description fonctionnelle du site :
+
+Boutique en ligne n°1 : Nos produits
+Le site  doit bien évidemment comporter une boutique en ligne, accessible depuis l'onglet "Nos produits". Cette boutique en ligne doit  par  défaut  afficher  l'ensemble  des produits  mis en ligne depuis le back-office, et disponibles en stocks, classés par ordre de prix croissant.
+
+Une liste de filtres doit permettre d'affiner et de simplifier la recherche. La liste des filtres à proposer est la suivante :
+-	Prix
+-	Couleurs 
+-	Marque
+-	Type (homme, femme ou enfants)
+
+
+Depuis la liste de chaque produit, les utilisateurs doivent pouvoir :
+
+-	Ajouter le produit au panier
+
+-	Consulter la fiche du produit
+
+Boutique en ligne n°2 : Nos locaux
+En plus d’assurer le choix des produits, le site doit encore permettre aux clients de s’informer sur les locaux de l’entreprise. En effet, la récupération des commandes peut se faire dans l’un des locaux ou par livraison. 
+Fiches produits
+Chaque fiche produit est composée des informations structurées suivantes :
+
+-	Nom du produit
+-	Note du produit
+-	Photo du produit
+-	Description du produit
+
+Espace Client
+Un utilisateur sera dans l'obligation de créer un compte client pour compléter un achat.  Afin  de  créer un  compte, l'utilisateur  devra  seulement  fournir  son  adresse  email  et  définir  un  mot  de  passe. Mais pour assurer la récupération des produits commandés, le client doit fournir son adresse ainsi que son numéro de téléphone et son CIN.
+
+La création d'un compte est indispensable afin de pouvoir finaliser une commande.
+
+
+
+
+###	Description fonctionnelle du Back-office :
+
+Depuis le back-office, l’administrateur doit être en mesure d'effectuer en autonomie l'ensemble des tâches quotidiennes nécessaires au bon fonctionnement du site e-commerce.
+
+Fonctionnalités E-Commerce
+
+1.	Gestion du front
+-	Gestion du catalogue de produits : Ajout et retrait des produits affichés dans chacune des boutiques.
+-	Gestion des promotions et codes promos : Création et suppression des codes promo et offres temporaires sur des produits ou groupes de produits
+-	Mise à jour de la page d'accueil : Possibilité de mettre en avant des produits, promotions et articles
+
+2.	Gestion du Back-office
+-	Suivi des commandes : Affichage et modification de l’état (en cours de livraison, etc.)
+-	Gestion des stocks : Manuelle dans un premier temps. Il doit être possible de suivre depuis le Back-office le niveau des stocks pour chacun des produits.
+
+

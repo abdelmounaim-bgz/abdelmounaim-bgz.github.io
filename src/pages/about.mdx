@@ -1,23 +1,24 @@
 ---
-navigationLabel: About
+navigationLabel: apropos
 ---
 
 import { mix } from '@theme-ui/color';
 import Footer from '../components/footer';
 
-# aboutMe
+# aproposDeMoi
 
 <Grid gap={2} columns={[1, '2fr 1fr']}>
   <Box>
-    Hey Visitor!👋 My name is Yash Dave, a Front-end developer and a budding Data Science Enthusiast from the town of Vadodara, Gujarat, India. 
-    Creating websites that look beautiful and are performant is my passion, and ensuring they are accessible is my mission! 
+    Bonjour Madame, Monsieur,
     <Divider/>
-    I am currently pursuing a Masters in Computer Applications with Data Science at Symbiosis International University. 
-    I am also currently intrigued by Blockchain & Smart Contracts, and the possibilities they can help realize.
+    Je suis Abdelmounaim BOUGAZE, étudiant en troisième année de l’Ingénierie du Web et Informatique Mobile (IWIM), option Intelligence du web à l’Ecole Nationale Supérieure d’Informatique et d’Analyse des Systèmes (ENSIAS). 
     <Divider/>
-    I love working with Open Source Tech while also contributing to them. 
-    I am a proud Mozillian, part of Mozilla Gujarat, and contribute to the DEV Community frequently. 
-    Encouraging and helping beginners contribute to Open Source is one of my favorite past-times.
+    Je suis actuellement en stage de projet de fin d’étude d'une durée de six mois depuis février 2020.
+    <Divider/>
+    Ma formation à l’ENSIAS traite une multitude de problématiques informatiques et est centrée sur des projets qui ont renforcé mon esprit d’équipe et développé mes méthodes de résolution de problèmes.
+    <Divider/>
+    Dynamique et doté du sens de l’initiative, je suis prêt à m’investir et à mettre en pratique les enseignements théoriques que j'ai reçu.
+    
   </Box>
   <Box 
     sx={{
@@ -25,51 +26,115 @@ import Footer from '../components/footer';
         alignItems: 'center',
         p: 2
     }}>
-    <Image src="../images/yash_512.jpg" alt='Photo depicting myself, Yash Dave'/>
+    <Image src="../images/abdelmounaim.jpg" alt='Photo of myself, abdelmounaim bougaze'/>
   </Box>
 </Grid>
 <Divider/>
+<Divider/>
+<Divider/>
+<Heading variant='styles.h2'>CompétencesTechniques</Heading>
+<Grid gap={2} columns={[1,'1fr 1fr 1fr ']}>
+  
+  <Box>
+    
+        <Heading variant='styles.h3' mb={0}>Méthodes de conception : </Heading>
+        <Text>+Merise</Text>
+        <Text>+UML</Text>      
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Méthodes agiles : </Heading>
+        <Text>+Scrum</Text>
+        <Text>+eXtreme Programing</Text>
+       
+        
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0}>Langages de programmation : </Heading>
+        <Text>+C  +JAVA  +Python</Text>
+        <Text>+Java Script  +Dart  +C#</Text>
+       
+        
+  </Box>
+  
+  <Box>
+    
+        <Heading variant='styles.h3' mb={0}>Développement Web : </Heading>
+        <Text>+PHP / Symphony</Text>
+        <Text>+JEE / JSF</Text>
+        <Text>+HTML / CSS</Text>
+        <Text>+React.js  +Angular.js</Text>
+        <Text>+ASP .net</Text>        
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Développement mobile : </Heading>
+        <Text>+SDK android</Text>
+        <Text>+Java / XML</Text>
+        <Text>+React native</Text>
+        <Text>+Flutter</Text>
+               
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0}>Data mining : </Heading>
+        <Text>+KNN</Text>
+        <Text>+ID3</Text>
+        <Text>+k-means</Text>
+        <Text>+réseaux de neurones</Text>
+                
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h3' mb={0}>Sécurité : </Heading>
+        <Text>+Sécurité des systèmes et des réseaux (concepts de base) </Text>
+        <Text>+Cryptographie</Text>
+               
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Big Data : </Heading>
+        <Text>+Hadoop </Text>
+                       
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0}>Administration des systèmes : </Heading>
+        <Text>+windows </Text>
+        <Text>+linux</Text>
+               
+  </Box>
+</Grid>
+<Divider/>
+<Divider/>
 <Grid gap={2} columns={[1, '1fr 1fr 1fr']}>  
     <Box>   
-        <Heading variant='styles.h2'>fetchExperience</Heading>
-        <Heading variant='styles.h3' mb={0}>Gateway NINtec Pvt. Ltd.</Heading>
-        <Text>Software Intern</Text>
-        <Text variant='styles.small'>Jan 2019 - May 2019</Text>
+        <Heading variant='styles.h2'>Langues</Heading>
+        <Heading variant='styles.h3' mb={0}>Arabe</Heading>
+        <Text>Natale</Text>
+        
         <Divider />
-        <Heading variant='styles.h3' mb={0}>Potent Embedded Systems</Heading>
-        <Text>Software Intern</Text>
-        <Text variant='styles.small'>May 2018 - Jun 2018</Text>
+        <Heading variant='styles.h3' mb={0}>Français</Heading>
+        <Text>Bilingue</Text>
         <Divider />
-    </Box>
-    <Box>   
-        <Heading variant='styles.h2'>fetchVolunteering</Heading>
-        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>SICSR ACM Student Chapter</Heading>
-        <Text>Vice Chair</Text>
-        <Text variant='styles.small'>Nov 2019 - Present</Text>
-        <Divider />
-        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Facebook Developer Circles - Pune</Heading>
-        <Text>Moderator</Text>
-        <Text variant='styles.small'>Sep 2019 - Present</Text>
-        <Divider />
-        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Computers@NUV</Heading>
-        <Text>Vice President & Publisher</Text>
-        <Text variant='styles.small'>Jun 2017 - Oct 2018</Text>
-        <Divider />
-        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Change Vadodara Campaign</Heading>
-        <Text>Student Volunteer</Text>
-        <Text variant='styles.small'>May 2017 - Jun 2017</Text>
+        <Heading variant='styles.h3' mb={0}>Anglais</Heading>
+        <Text>Professionnel</Text>
         <Divider />
     </Box>
     <Box>   
-        <Heading variant='styles.h2'>fetchEducation</Heading>
-        <Heading variant='styles.h5' mb={0}>Masters in Computer Applications - Data Science</Heading>
-        <Text>Symbiosis International University</Text>
-        <Text variant='styles.small'>Jun 2019 - Present</Text>
+        <Heading variant='styles.h2'>Centres d'intérêts</Heading>
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Sports</Heading>
+        <Text>Arts martiaux (taekwondo)</Text>
+        <Text>Football</Text>
         <Divider />
-        <Heading variant='styles.h5' mb={0}>Bachelor of Computer Applications</Heading>
-        <Text>Navrachana University</Text>
-        <Text variant='styles.small'>Jun 2016 - May 2019</Text>
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Autres</Heading>
+        <Text>Musique</Text>
+        <Text>Cinéma</Text>
+        <Text>Technologies</Text>
         <Divider />
+        
     </Box>
+    
 </Grid>
 <Footer/>

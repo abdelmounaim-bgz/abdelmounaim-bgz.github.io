@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    name: "Amorpheuz's Portfolio",
-    description: "A blog and portfolio site for Yash Dave",
-    keywords: ["tech", "blog", "frontend developer", "data scientist", "frontend dev", "amorpheuz", "yash dave", "react dev", "javascript dev"],
+    name: "Abdelmounaim portfolio",
+    description: "une présentation professionnelle de abdelmounaim bougaze",
+    keywords: ["tech", "blog", "frontend developer", "data scientist", "frontend dev", "amorpheuz", "Abdelmounaim bougaze", "react dev", "javascript dev"],
     siteUrl: "https://amorpheuz.github.io",
-    siteImage: "images/favicon-128x128.png",
-    profileImage: `images/favicon-64x64.png`,
-    lang: `en`,
+    siteImage: "images/logo.png",
+    profileImage: `images/logo.png`,
+    lang: `fr`,
     config: {
-      sidebarWidth: 280
+      sidebarWidth: 300
     }
   },
   plugins: [
