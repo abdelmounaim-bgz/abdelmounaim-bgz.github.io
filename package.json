@@ -1,9 +1,10 @@
 {
-  "name": "amorpheuz-portfolio",
+  "name": "abdelmounaim-portfolio",
+  "homepage": "http://abdelmounaim.me/",
   "private": true,
-  "description": "A blog and portfolio site for Yash Dave",
+  "description": "la présentation de abdelmounaim bougaze",
   "version": "0.1.0",
-  "author": "Yash Dave <mail2ypd@gmail.com>",
+  "author": "abdelmounaim bougaze <abdelmounaim.bougaze@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
@@ -33,13 +34,15 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amorpheuz/amorpheuz.github.io"
+    "url": "https://github.com/abdelmounaim-bgz/abdelmounaim-bgz.github.io"
   },
   "bugs": {
-    "url": "https://github.com/Amorpheuz/amorpheuz.github.io/issues"
+    "url": "https://github.com/abdelmounaim-bgz/abdelmounaim-bgz.github.io/issues"
   }
 }
