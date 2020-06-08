@@ -1,0 +1,140 @@
+---
+navigationLabel: apropos
+---
+
+import { mix } from '@theme-ui/color';
+import Footer from '../components/footer';
+
+# aproposDeMoi
+
+<Grid gap={2} columns={[1, '2fr 1fr']}>
+  <Box>
+    Bonjour Madame, Monsieur,
+    <Divider/>
+    Je suis Abdelmounaim BOUGAZE, étudiant en troisième année de l’Ingénierie du Web et Informatique Mobile (IWIM), option Intelligence du web à l’Ecole Nationale Supérieure d’Informatique et d’Analyse des Systèmes (ENSIAS). 
+    <Divider/>
+    Je suis actuellement en stage de projet de fin d’étude d'une durée de six mois depuis février 2020.
+    <Divider/>
+    Ma formation à l’ENSIAS traite une multitude de problématiques informatiques et est centrée sur des projets qui ont renforcé mon esprit d’équipe et développé mes méthodes de résolution de problèmes.
+    <Divider/>
+    Dynamique et doté du sens de l’initiative, je suis prêt à m’investir et à mettre en pratique les enseignements théoriques que j'ai reçu.
+    
+  </Box>
+  <Box 
+    sx={{
+        display: 'flex',
+        alignItems: 'center',
+        p: 2
+    }}>
+    <Image src="../images/abdelmounaim.jpg" alt='Photo of myself, abdelmounaim bougaze'/>
+  </Box>
+</Grid>
+<Divider/>
+<Divider/>
+<Divider/>
+<Heading variant='styles.h2'>CompétencesTechniques</Heading>
+<Grid gap={2} columns={[1,'1fr 1fr 1fr ']}>
+  
+  <Box>
+    
+        <Heading variant='styles.h3' mb={0}>Méthodes de conception : </Heading>
+        <Text>+Merise</Text>
+        <Text>+UML</Text>      
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Méthodes agiles : </Heading>
+        <Text>+Scrum</Text>
+        <Text>+eXtreme Programing</Text>
+       
+        
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0}>Langages de programmation : </Heading>
+        <Text>+C  +JAVA  +Python</Text>
+        <Text>+Java Script  +Dart  +C#</Text>
+       
+        
+  </Box>
+  
+  <Box>
+    
+        <Heading variant='styles.h3' mb={0}>Développement Web : </Heading>
+        <Text>+PHP / Symphony</Text>
+        <Text>+JEE / JSF</Text>
+        <Text>+HTML / CSS</Text>
+        <Text>+React.js  +Angular.js</Text>
+        <Text>+ASP .net</Text>        
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Développement mobile : </Heading>
+        <Text>+SDK android</Text>
+        <Text>+Java / XML</Text>
+        <Text>+React native</Text>
+        <Text>+Flutter</Text>
+               
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0}>Data mining : </Heading>
+        <Text>+KNN</Text>
+        <Text>+ID3</Text>
+        <Text>+k-means</Text>
+        <Text>+réseaux de neurones</Text>
+                
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h3' mb={0}>Sécurité : </Heading>
+        <Text>+Sécurité des systèmes et des réseaux (concepts de base) </Text>
+        <Text>+Cryptographie</Text>
+               
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Big Data : </Heading>
+        <Text>+Hadoop </Text>
+                       
+  </Box>
+  <Box>
+    
+        <Heading variant='styles.h5' mb={0}>Administration des systèmes : </Heading>
+        <Text>+windows </Text>
+        <Text>+linux</Text>
+               
+  </Box>
+</Grid>
+<Divider/>
+<Divider/>
+<Grid gap={2} columns={[1, '1fr 1fr 1fr']}>  
+    <Box>   
+        <Heading variant='styles.h2'>Langues</Heading>
+        <Heading variant='styles.h3' mb={0}>Arabe</Heading>
+        <Text>Natale</Text>
+        
+        <Divider />
+        <Heading variant='styles.h3' mb={0}>Français</Heading>
+        <Text>Bilingue</Text>
+        <Divider />
+        <Heading variant='styles.h3' mb={0}>Anglais</Heading>
+        <Text>Professionnel</Text>
+        <Divider />
+    </Box>
+    <Box>   
+        <Heading variant='styles.h2'>Centres d'intérêts</Heading>
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Sports</Heading>
+        <Text>Arts martiaux (taekwondo)</Text>
+        <Text>Football</Text>
+        <Divider />
+        <Heading variant='styles.h5' mb={0} sx={{color: mix('secondary', 'success', `0.5`)}}>Autres</Heading>
+        <Text>Musique</Text>
+        <Text>Cinéma</Text>
+        <Text>Technologies</Text>
+        <Divider />
+        
+    </Box>
+    
+</Grid>
+<Footer/>

@@ -1,0 +1,50 @@
+{
+  "name": "abdelmounaim-portfolio",
+  "homepage": "http://abdelmounaim.me/",
+  "private": true,
+  "description": "la présentation de abdelmounaim bougaze",
+  "version": "0.1.0",
+  "author": "abdelmounaim bougaze <abdelmounaim.bougaze@gmail.com>",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
+    "@pauliescanlon/gatsby-theme-terminal": "^0.0.30",
+    "@theme-ui/prism": "^0.3.0",
+    "gatsby": "^2.19.22",
+    "gatsby-plugin-canonical-urls": "^2.3.1",
+    "gatsby-plugin-feed": "^2.5.1",
+    "gatsby-plugin-mdx": "^1.0.74",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gh-pages": "^3.0.0",
+    "gh-pages-cli": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby starter"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdelmounaim-bgz/abdelmounaim-bgz.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/abdelmounaim-bgz/abdelmounaim-bgz.github.io/issues"
+  }
+}
