@@ -9,7 +9,9 @@ module.exports = {
     lang: `fr`,
     config: {
       sidebarWidth: 300
-    }
+    },
+    
+
   },
   plugins: [
     {
